@@ -82,7 +82,7 @@ local gui = Instance.new("ScreenGui")
 gui.Name = "Dukeshadow"
 gui.Parent = game.CoreGui
 local TextButton = Instance.new("TextButton")
-TextButton.Text = "Sher Private"
+TextButton.Text = "Rampage.cc"
 TextButton.TextSize = 25
 TextButton.TextColor3 = Color3.new(1, 1, 1)
 TextButton.BackgroundColor3 = Color3.new(0.1, 0.1, 0.1)
@@ -462,7 +462,7 @@ local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/LionTheGreatRealFrFr/MobileLinoriaLib/main/addons/SaveManager.lua"))()
 
 local Window = Library:CreateWindow({
-Title = "SherW [khen.cc]",
+Title = "Rampage.cc",
 Center = true,
 AutoShow = true,
 Position = UDim2.new(0.5, -200, 0.5, -150),
@@ -471,7 +471,7 @@ Size = UDim2.new(0, 400, 0, 300)
 
 local Tabs = {
 Main = Window:AddTab("Main Settings"),
-ESP = Window:AddTab("Visualzz"),
+ESP = Window:AddTab("ESP"),
 UISettings = Window:AddTab("UI Settings")
 }
 
@@ -655,7 +655,7 @@ TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.BackgroundTransparency = 1.000
 TextButton.Size = UDim2.new(1, 0, 1, 0)
 TextButton.Font = Enum.Font.Code
-TextButton.Text = "SherW"
+TextButton.Text = "Rampage.cc"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextScaled = true
 TextButton.TextSize = 30
